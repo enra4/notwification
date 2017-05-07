@@ -1,0 +1,11 @@
+{
+  "name": "notwification",
+  "version": "1.0.0",
+  "description": "twitch streams desktop notifications or something",
+  "author": "enra4 <cudcsb@gmail.com> (https://github.com/enra4)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0",
+    "splush": "^0.1.0"
+  }
+}
