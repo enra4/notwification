@@ -7,7 +7,7 @@ setInterval(() => {
 	for (let channel of settings.channels) {
 		let url = `https://api.twitch.tv/kraken/streams/${channel}?client_id=${settings.twitchKey}`
 		request(url, (error, response, body) => {
-			if (!error) {
+			if (!error && body) {
 				body = JSON.parse(body)
 				if (body.stream) {
 					if (oldStreamIDs.indexOf(body.stream._id) === -1) {
