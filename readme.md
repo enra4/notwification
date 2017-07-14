@@ -2,6 +2,8 @@
 
 desktop notifications for twitch streams
 
+**twitch just added desktop notifications for people you follow, but this could still be useful if you dont want notifications for every single person you follow**
+
 ## how to
 
 ```bash
